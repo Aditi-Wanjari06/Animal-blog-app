@@ -1,0 +1,40 @@
+.blog-card{
+background-color: rgb(29, 114, 114);
+padding: 10px;
+margin: 10px;
+border-radius: 10px;
+height: 280px;
+width: 250px;
+position: relative;
+text-decoration: none;
+color: white;
+box-shadow: 1px solid rgb(0, 0, 0,0.1);
+}
+
+.blog-card:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.blog-img{
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.blog-title{
+    text-align: center;
+    font-size: 25px;
+}
+
+.blog-content{
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.author-name{
+    margin:10px;
+    position: absolute;
+    bottom: 3px;
+    font-style: italic;
+}

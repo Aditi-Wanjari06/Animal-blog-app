@@ -1,0 +1,31 @@
+
+.blogview-title{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    margin: 15px;
+}
+
+.blogview-img{
+    width: 550px;
+    display: block;
+    justify-content: center;
+    margin: 10px;padding: 5px;
+}
+
+.blogview-container{
+    display: flex;
+}
+
+.blogview-content{
+    margin: 40px;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.blogview-author{
+    position: absolute;
+    left: 83% ;
+    font-weight: bolder;
+    font-size: 18px;
+}
